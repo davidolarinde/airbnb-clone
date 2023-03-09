@@ -1,9 +1,30 @@
 .d-block {
     height: 90vh;
 }
+.carousel-caption {
+    text-shadow: 0 0 30px #000;
+}
+
+.carousel-caption h1 {
+margin-bottom: 240px;
+text-align: left;
+ font-size: 50px;
+ font-weight: 700;
+}
 @media screen and (max-width:720px) {
+    .carousel-indicators{
+        position: absolute;
+        top: 10px;
+    }
+    
     .d-block {
     height: 40vh;
     background-position: 40% 50%;
     }
+    .carousel-caption h1{
+        font-size: 25px;
+       margin-bottom: 40px;
+        color: #fff;
+    }
+
 }
